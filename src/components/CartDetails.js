@@ -206,7 +206,6 @@
 
 // export default CartDetails;
 
-
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { addToCart, removeToCart, removeSingleIteams, emptycartIteam } from "../redux/features/cartSlice";
