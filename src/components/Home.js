@@ -27,7 +27,7 @@ const Home = () => {
                         cartData.map((element, index) => {
                             return (
                                 <>
-                                    <Card style={{ width: "22rem", border: "none" }} className='hove mb-4'>
+                                    <Card style={{ width: "22rem", border: "none", background: "linear-gradient(to top left,rgb(52, 82, 52),white)" }} className='hove mb-4 myCard'>
                                         <Card.Img variant='top' className='cd' src={element.imgdata}/>
 
                                         <div className="card_body">
