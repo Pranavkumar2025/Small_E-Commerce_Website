@@ -10,7 +10,7 @@ const {carts} = useSelector((state)=>state.allCart);
 
     return (
         <>
-            <Navbar style={{ height: "60px", background: "linear-gradient(to top left,purple,green)", color: "white", borderRadius:"15px" }}>
+            <Navbar style={{ height: "60px", background: "linear-gradient(to top left,aqua,purple)", color: "white", borderRadius:"15px" }}>
                 <Container>
                 <NavLink to="/" className="text-decoration-none text-light mx-2 NavImg">
                     <img src="https://www.simicart.com/blog/wp-content/uploads/KFC-logo.jpg" alt="" />
